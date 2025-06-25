@@ -19,3 +19,5 @@ class QuizCreator():
             add_another_question_choice = input("Do you want to add another question? (yes/no):\n").strip().lower()
             if add_another_question_choice != "yes":
                 break
+
+quiz_creator1 = QuizCreator()
