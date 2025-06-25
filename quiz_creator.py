@@ -15,3 +15,7 @@ class QuizCreator():
                 file.write(f"Question: {question}\n")
                 for option, answer in answers.items():
                     file.write(f"{option}. {answer}\n")
+
+            add_another_question_choice = input("Do you want to add another question? (yes/no):\n").strip().lower()
+            if add_another_question_choice != "yes":
+                break
