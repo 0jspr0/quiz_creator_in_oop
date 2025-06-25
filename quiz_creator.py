@@ -21,3 +21,4 @@ class QuizCreator():
                 break
 
 quiz_creator1 = QuizCreator()
+quiz_creator1.create_quiz()
