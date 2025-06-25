@@ -8,3 +8,5 @@ class QuizCreator():
             for option in ['a', 'b', 'c', 'd']:
                 answer = input(f"Enter answer option {option}:\n")
                 answers[option] = answer
+
+            correct_answer = input("Enter the correct answer (a, b, c, or d):\n")
