@@ -7,3 +7,5 @@ class Quiz():
 			self.lines = file.readlines()
 		self.number_of_entries = int(len(self.lines) / 6)
 		self.random_number = random.randrange(1, self.number_of_entries + 1)
+		for line in range(len(self.lines)):
+			self.lines[line] = self.lines[line][:-1]
