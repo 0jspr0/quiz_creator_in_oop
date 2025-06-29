@@ -10,3 +10,4 @@ class Quiz():
 		for line in range(len(self.lines)):
 			self.lines[line] = self.lines[line][:-1]
 		self.your_answer = ""
+		self.correct_answer = ""
