@@ -1,4 +1,4 @@
-import quiz
+from quiz import Quiz
 
 def load_quiz(quiz_file):
 	quiz1 = quiz.Quiz(quiz_file)
