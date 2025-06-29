@@ -30,3 +30,5 @@ class Quiz():
 	def load_correct_answer(self):
 		correct_answer_number = ((self.random_number - 1) * 6) + 6
 		self.correct_answer = self.lines[correct_answer_number - 1].replace("Correct answer: ", "")[:1]
+
+	def input_your_answer(self):
