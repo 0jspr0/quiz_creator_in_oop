@@ -35,3 +35,8 @@ class Quiz():
 		self.your_answer = input("\nWhat is your answer? (a, b, c, or d)\n")
 
 	def check_if_your_answer_is_correct(self, your_answer, correct_answer):
+		if self.your_answer == self.correct_answer:
+			print("Your answer is correct!")
+		else:
+			print("Your answer is incorrect!")
+			print(f"Correct answer: {self.correct_answer}")
