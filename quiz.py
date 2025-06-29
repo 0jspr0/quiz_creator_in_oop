@@ -43,3 +43,4 @@ class Quiz():
 
 def load_quiz(quiz_file):
 	quiz1 = Quiz(quiz_file)
+	quiz1.load_question()
