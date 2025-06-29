@@ -40,3 +40,5 @@ class Quiz():
 		else:
 			print("Your answer is incorrect!")
 			print(f"Correct answer: {self.correct_answer}")
+
+def load_quiz(quiz_file):
