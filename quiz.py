@@ -42,3 +42,4 @@ class Quiz():
 			print(f"Correct answer: {self.correct_answer}")
 
 def load_quiz(quiz_file):
+	quiz1 = Quiz(quiz_file)
