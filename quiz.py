@@ -32,3 +32,4 @@ class Quiz():
 		self.correct_answer = self.lines[correct_answer_number - 1].replace("Correct answer: ", "")[:1]
 
 	def input_your_answer(self):
+		self.your_answer = input("\nWhat is your answer? (a, b, c, or d)\n")
