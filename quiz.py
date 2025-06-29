@@ -26,3 +26,5 @@ class Quiz():
 			answers.append(answer)
 		for answer in answers:
 			print(answer)
+
+	def load_correct_answer(self):
