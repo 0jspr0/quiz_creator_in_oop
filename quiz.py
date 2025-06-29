@@ -11,3 +11,5 @@ class Quiz():
 			self.lines[line] = self.lines[line][:-1]
 		self.your_answer = ""
 		self.correct_answer = ""
+
+	def load_question(self):
