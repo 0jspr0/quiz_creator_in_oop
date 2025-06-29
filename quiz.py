@@ -13,3 +13,6 @@ class Quiz():
 		self.correct_answer = ""
 
 	def load_question(self):
+		question_number = ((self.random_number - 1) * 6) + 1
+		question = self.lines[question_number - 1].replace("Question: ", "")
+		print(question)
