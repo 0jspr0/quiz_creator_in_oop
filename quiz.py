@@ -18,3 +18,11 @@ class Quiz():
 		print(question)
 
 	def load_answers(self):
+		answers = []
+		answer_number = ((self.random_number - 1) * 6) + 1
+		for i in range(4):
+			answer_number += 1
+			answer = self.lines[answer_number - 1]
+			answers.append(answer)
+		for answer in answers:
+			print(answer)
